@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doggos</title>
+  <div>
+    <h1>Click On Doggos</h1>
+  </div>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style src="Java.js"></style>
+
+</head>
+
+<body>
+<!-- The buttons at the bottom appear ontop of the first buttons -->
+
+			<button id="Button2h"></button>
+			<button id="Button2g"></button>
+		<button id="Button1d"></button>
+			<button id="Button2f"></button>
+			<button id="Button2e"></button>
+		<button id="Button1c"></button>
+			<button id="Button2d"></button>
+			<button id="Button2c"></button>
+		<button id="Button1b"></button>
+			<button id="Button2b"></button>
+			<button id="Button2a"></button>
+		<button id="Button1a"></button>
+	<button id="MainButton"></button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+<script>
+/* Doubleclick the mainbutton to contract all buttons */
+ $(document).ready(function(){
+    $("#MainButton").dblclick(function(){
+        $("#Button1a, #Button1b, #Button1c, #Button1d, #Button2a, #Button2b, #Button2c, #Button2d, #Button2e, #Button2f, #Button2g, #Button2h").animate({left: '43%', top: '30%'});
+    });
+});
+
+/* First 4 butttons */
+$(document).ready(function(){
+    $("#MainButton").click(function(){
+        $("#Button1a, #Button2a, #Button2b").animate({left: '28%', top: '10%'});
+    });
+});
+$(document).ready(function(){
+    $("#MainButton").click(function(){
+        $("#Button1b, #Button2c, #Button2d").animate({left: '52%', top: '10%'});
+    });
+});
+$(document).ready(function(){
+    $("#MainButton").click(function(){
+        $("#Button1c, #Button2e, #Button2f").animate({left: '52%', top: '50%'});
+    });
+});
+$(document).ready(function(){
+    $("#MainButton").click(function(){
+        $("#Button1d, #Button2g, #Button2h").animate({left: '28%', top: '50%'});
+    });
+});
+
+/* Secondary buttons */
+$(document).ready(function(){
+    $("#Button1a").click(function(){
+        $("#Button2a").animate({left: '10%', top: '10%'});
+    });
+});
+$(document).ready(function(){
+    $("#Button1a").click(function(){
+        $("#Button2b").animate({left: '10%', top: '30%'});
+    });
+});
+$(document).ready(function(){
+    $("#Button1b").click(function(){
+        $("#Button2c").animate({left: '80%', top: '10%'});
+    });
+});
+$(document).ready(function(){
+    $("#Button1b").click(function(){
+        $("#Button2d").animate({left: '80%', top: '20%'});
+    });
+});
+$(document).ready(function(){
+    $("#Button1c").click(function(){
+        $("#Button2e").animate({left: '80%', top: '80%'});
+    });
+});
+$(document).ready(function(){
+    $("#Button1c").click(function(){
+        $("#Button2f").animate({left: '70%', top: '80%'});
+    });
+});
+$(document).ready(function(){
+    $("#Button1d").click(function(){
+        $("#Button2g").animate({left: '10%', top: '80%'});
+    });
+});
+$(document).ready(function(){
+    $("#Button1d").click(function(){
+        $("#Button2h").animate({left: '10%', top: '70%'});
+    });
+});
+
+</script>
+
+</body>
+</html>
