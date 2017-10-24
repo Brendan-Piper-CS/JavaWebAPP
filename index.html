@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Doggos</title>
+  <title>Doggos and Cattos</title>
   <div>
-    <h1>Click On Doggos</h1>
+    <button onclick = "myDoggoFunction()">Click for Doggos</button>
+	<button onclick = "myCattoFunction()">Click for Cattos</button>
   </div>
 
   <link rel="stylesheet" type="text/css" href="style.css">
-  <style src="Java.js"></style>
 
 </head>
 
+
 <body>
+
+  <canvas id="canvas"></canvas>
+
+  <style src="Java.js"></style>
+
 <!-- The buttons at the bottom appear ontop of the first buttons -->
 
 			<button id="Button2h"></button>
@@ -32,6 +38,39 @@
 </script>
 
 <script>
+/* converts doggos to cattos */
+function myCattoFunction() {
+    document.getElementById("MainButton").style.backgroundImage = "url('https://s7d2.scene7.com/is/image/PetSmart/ARTHMB-HowToHelpYourCatHaveFewerHairballs-20160818?$AR1104$')";
+	document.getElementById("Button1a").style.backgroundImage = "url('http://2.bp.blogspot.com/-997sJySW7EY/T8zoG4roAQI/AAAAAAAAMtU/NPrD3FU-BbQ/s1600/these-funny-cats-001-009.jpg')";
+	document.getElementById("Button1b").style.backgroundImage = "url('https://i.ytimg.com/vi/EadVhR6c49k/maxresdefault.jpg')";
+	document.getElementById("Button1c").style.backgroundImage = "url('https://thecatsite.com/media/fotolia_44906260_subscription_monthly_m-jpg.190480/full')";
+	document.getElementById("Button1d").style.backgroundImage = "url('https://i.ytimg.com/vi/8xhKnd3fstw/hqdefault.jpg')";
+	document.getElementById("Button2a").style.backgroundImage = "url('http://3.bp.blogspot.com/-QjjGJXq6lTY/Tx7kevICeAI/AAAAAAAAduU/isnO0q_JK08/s1600/Funny-Cat-Pictures-webmasel.jpg')";
+	document.getElementById("Button2b").style.backgroundImage = "url('http://i.ytimg.com/vi/qpl5mOAXNl4/hqdefault.jpg')";
+	document.getElementById("Button2c").style.backgroundImage = "url('http://www.universitypressclub.com/wp-content/uploads/2010/04/toilet.jpg')";
+	document.getElementById("Button2d").style.backgroundImage = "url('http://3.bp.blogspot.com/-C8W_kek1gFY/T3q-oOJGU0I/AAAAAAAABdA/K7W8bquQxTs/s1600/funny-zoo-animals1-1024x819.jpg')";
+	document.getElementById("Button2e").style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNxyclNzR1X6cpPRwXXoEsGu8W0YJ8H9-ZQLZKmz2OHSd9MCBn')";
+	document.getElementById("Button2f").style.backgroundImage = "url('https://i.ytimg.com/vi/QAgy9r331v0/hqdefault.jpg')";
+	document.getElementById("Button2g").style.backgroundImage = "url('https://i.pinimg.com/736x/f2/83/27/f283271dc864b437b1a6dee1a9f69991--cubes-funny-animal-pictures.jpg')";
+	document.getElementById("Button2h").style.backgroundImage = "url('http://2.bp.blogspot.com/-67pzG8t3t8Y/UFlJsg5a3pI/AAAAAAAACe4/Nm-fpS7QMFY/s1600/Funny+Cat+Pics+129.jpg')";
+}
+
+function myDoggoFunction() {
+    document.getElementById("MainButton").style.backgroundImage = "url('http://images2.fanpop.com/image/photos/13200000/Cute-Dog-dogs-13286656-1024-768.jpg')";
+	document.getElementById("Button1a").style.backgroundImage = "url('https://s7d2.scene7.com/is/image/PetSmart/PB1201_STORY_CARO-Authority-HealthyOutside-DOG-20160818?$PB1201$')";
+	document.getElementById("Button1b").style.backgroundImage = "url('https://tse3.mm.bing.net/th?id=OIP.Ud9TpJuFyyNbS2JxKu95FQEjEs&pid=15.1&P=0&w=300&h=300')";
+	document.getElementById("Button1c").style.backgroundImage = "url('http://2static.fjcdn.com/pictures/Puppy+man_ce1fcb_5931342.jpg')";
+	document.getElementById("Button1d").style.backgroundImage = "url('https://teachingmathculture.files.wordpress.com/2016/08/heres-what-popular-dog-breeds-looked-like-before-and-after-100-years-of-breeding.jpg')";
+	document.getElementById("Button2a").style.backgroundImage = "url('http://cdn.attackofthecute.com/October-08-2013-04-22-15-as.jpg')";
+	document.getElementById("Button2b").style.backgroundImage = "url('http://totallydogtraining.com/wp-content/uploads/2014/10/emergency-recall.jpg')";
+	document.getElementById("Button2c").style.backgroundImage = "url('https://www.shitpostbot.com/img/sourceimages/happy-doggo-57b1df2fb27db.jpeg')";
+	document.getElementById("Button2d").style.backgroundImage = "url('http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/13423588_285093291835112_1288112965_n.jpg?ig_cache_key=MTI3NjEyMzczMzY1MDM1NzM0Nw==.2')";
+	document.getElementById("Button2e").style.backgroundImage = "url('http://www.dogwer.com/wp-content/uploads/2017/06/tU6BCRDNucdHKZcnlknbTBTq9FtOxncrIPZvpYI6HaA.jpg')";
+	document.getElementById("Button2f").style.backgroundImage = "url('http://vignette2.wikia.nocookie.net/le-miiverse-resource/images/4/49/Doggo.jpg/revision/latest?cb=20160119150558')";
+	document.getElementById("Button2g").style.backgroundImage = "url('https://2.bp.blogspot.com/-imXp8Mvk3qE/V55RwR8tlnI/AAAAAAABpXM/6_tNIEwTY-YvJPyRClDDVpujvFuGMuqswCLcB/s1600/cute-dogs-136-06.jpg')";
+	document.getElementById("Button2h").style.backgroundImage = "url('http://s.storage.akamai.coub.com/get/b52/p/coub/simple/cw_image/43bfe73a719/a5523955b557a176edaa6/med_1491254215_00032.jpg";
+	}
+
 /* Doubleclick the mainbutton to contract all buttons */
  $(document).ready(function(){
     $("#MainButton").dblclick(function(){
@@ -42,66 +81,179 @@
 /* First 4 butttons */
 $(document).ready(function(){
     $("#MainButton").click(function(){
-        $("#Button1a, #Button2a, #Button2b").animate({left: '28%', top: '10%'});
+        $("#Button1a, #Button2a, #Button2b").animate({left: '30%', top: '17%'});
     });
 });
 $(document).ready(function(){
     $("#MainButton").click(function(){
-        $("#Button1b, #Button2c, #Button2d").animate({left: '52%', top: '10%'});
+        $("#Button1b, #Button2c, #Button2d").animate({left: '55%', top: '17%'});
     });
 });
 $(document).ready(function(){
     $("#MainButton").click(function(){
-        $("#Button1c, #Button2e, #Button2f").animate({left: '52%', top: '50%'});
+        $("#Button1c, #Button2e, #Button2f").animate({left: '55%', top: '55%'});
     });
 });
 $(document).ready(function(){
     $("#MainButton").click(function(){
-        $("#Button1d, #Button2g, #Button2h").animate({left: '28%', top: '50%'});
+        $("#Button1d, #Button2g, #Button2h").animate({left: '30%', top: '55%' });
     });
 });
 
 /* Secondary buttons */
 $(document).ready(function(){
     $("#Button1a").click(function(){
-        $("#Button2a").animate({left: '10%', top: '10%'});
+        $("#Button2a").animate({left: '100px', top: '5px'});
     });
 });
 $(document).ready(function(){
     $("#Button1a").click(function(){
-        $("#Button2b").animate({left: '10%', top: '30%'});
+        $("#Button2b").animate({left: '10px', top: '170px'});
     });
 });
 $(document).ready(function(){
     $("#Button1b").click(function(){
-        $("#Button2c").animate({left: '80%', top: '10%'});
+        $("#Button2c").animate({left: '75%', top: '5%'});
     });
 });
 $(document).ready(function(){
     $("#Button1b").click(function(){
-        $("#Button2d").animate({left: '80%', top: '20%'});
+        $("#Button2d").animate({left: '80%', top: '35%'});
     });
 });
 $(document).ready(function(){
     $("#Button1c").click(function(){
-        $("#Button2e").animate({left: '80%', top: '80%'});
+        $("#Button2e").animate({left: '85%', top: '70%'});
     });
 });
 $(document).ready(function(){
     $("#Button1c").click(function(){
-        $("#Button2f").animate({left: '70%', top: '80%'});
+        $("#Button2f").animate({left: '70%', top: '75%'});
     });
 });
 $(document).ready(function(){
     $("#Button1d").click(function(){
-        $("#Button2g").animate({left: '10%', top: '80%'});
+        $("#Button2g").animate({left: '5%', top: '70%'});
     });
 });
 $(document).ready(function(){
     $("#Button1d").click(function(){
-        $("#Button2h").animate({left: '10%', top: '70%'});
+        $("#Button2h").animate({left: '15%', top: '50%'});
     });
 });
+
+window.onload = function(){
+	//canvas init
+	var canvas = document.getElementById("canvas");
+	var ctx = canvas.getContext("2d");
+
+	//canvas dimensions
+	var W = window.innerWidth;
+	var H = window.innerHeight;
+	canvas.width = W;
+	canvas.height = H;
+
+	//snowflake particles
+	var mp = 25; //max particles
+	var particles = [];
+	for(var i = 0; i < mp; i++)
+	{
+		particles.push({
+			x: Math.random()*W, //x-coordinate
+			y: Math.random()*H, //y-coordinate
+			r: Math.random()*4+1, //radius
+			d: Math.random()*mp //density
+		})
+	}
+
+	//Lets draw the flakes
+	function draw()
+	{
+		ctx.clearRect(0, 0, W, H);
+
+		ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+		ctx.beginPath();
+		for(var i = 0; i < mp; i++)
+		{
+			var p = particles[i];
+			ctx.moveTo(p.x, p.y);
+			ctx.arc(p.x, p.y, p.r, 0, Math.PI*2, true);
+		}
+		ctx.fill();
+		update();
+	}
+
+	//Function to move the snowflakes
+	//angle will be an ongoing incremental flag. Sin and Cos functions will be applied to it to create vertical and horizontal movements of the flakes
+	var angle = 0;
+	function update()
+	{
+		angle += 0.01;
+		for(var i = 0; i < mp; i++)
+		{
+			var p = particles[i];
+			//Updating X and Y coordinates
+			//We will add 1 to the cos function to prevent negative values which will lead flakes to move upwards
+			//Every particle has its own density which can be used to make the downward movement different for each flake
+			//Lets make it more random by adding in the radius
+			p.y += Math.cos(angle+p.d) + 1 + p.r/2;
+			p.x += Math.sin(angle) * 2;
+
+			//Sending flakes back from the top when it exits
+			//Lets make it a bit more organic and let flakes enter from the left and right also.
+			if(p.x > W+5 || p.x < -5 || p.y > H)
+			{
+				if(i%3 > 0) //66.67% of the flakes
+				{
+					particles[i] = {x: Math.random()*W, y: -10, r: p.r, d: p.d};
+				}
+				else
+				{
+					//If the flake is exitting from the right
+					if(Math.sin(angle) > 0)
+					{
+						//Enter from the left
+						particles[i] = {x: -5, y: Math.random()*H, r: p.r, d: p.d};
+					}
+					else
+					{
+						//Enter from the right
+						particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
+					}
+				}
+			}
+		}
+	}
+
+	//animation loop
+	setInterval(draw, 33);
+}
+//Animate mouse circles
+document.onmousemove = animateCircles;
+
+		var colors = ['#ccc','#6cf','#eba13a'];
+
+		function animateCircles (event) {
+			var circle = document.createElement("body");
+			circle.setAttribute("class", "circle");
+			document.body.appendChild(circle);
+
+			circle.style.left = event.clientX + 'px';
+			circle.style.top = event.clientY + 'px';
+
+			var color = colors[Math.floor(Math.random() * colors.length)];
+			circle.style.borderColor = color;
+
+			circle.style.transition = "all 0.5s linear 0s";
+
+			circle.style.left = circle.offsetLeft - 20 + 'px';
+			circle.style.top = circle.offsetTop - 20 + 'px';
+
+			circle.style.width = "50px";
+			circle.style.height = "50px";
+			circle.style.borderWidth = "5px";
+			circle.style.opacity = 0;
+		}
 
 </script>
 
